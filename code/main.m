@@ -86,7 +86,7 @@ for m=1:m_limit
             end
         end
         SampEnMF(i)=SampEnMF_mean/double(sub_amount);
-        fprintf('Value of atrribute %d (m = %d, e = %.2f) of SampEnMF = %.4f\n for benign image',i,m,k,SampEnMF(i));
+        fprintf('Value of atrribute %d (m = %d, e = %.2f) of SampEnMF = %.4f for benign image\n',i,m,k,SampEnMF(i));
         
         %Next attribute
         i=i+1;
@@ -215,7 +215,7 @@ for m=1:m_limit
             end
         end
         SampEnMF(i)=SampEnMF_mean/double(sub_amount);
-        fprintf('Value of atrribute %d (m = %d, e = %.2f) of SampEnMF = %.4f\n for malignant image',i,m,k,SampEnMF(i));
+        fprintf('Value of atrribute %d (m = %d, e = %.2f) of SampEnMF = %.4f for malignant image\n',i,m,k,SampEnMF(i));
         
         %Next attribute
         i=i+1;
