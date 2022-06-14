@@ -5,7 +5,7 @@
 %images of colorectal cancer, Computers in biology and medicine 103 (2018) 148–160.
 
 %Input image
-image = imread('../data/example_benign.bmp');
+image = imread('../data/example_benign.png');
 
 %attribute index
 i=1;
