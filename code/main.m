@@ -109,7 +109,7 @@ xlabel('\epsilon', 'FontSize', 12, 'FontWeight','bold')
 ylabel('SampEnMF', 'FontSize', 12, 'FontWeight','bold')
 title('m=1')
 
-saveas(gcf, '../data/curve_m1.png');
+saveas(gcf, '../results/curve_m1.png');
 
 %m=2
 plot(k, SampEnMF(1, 9:16), 'b-s')
@@ -117,7 +117,7 @@ xlabel('\epsilon', 'FontSize', 12, 'FontWeight','bold')
 ylabel('SampEnMF', 'FontSize', 12, 'FontWeight','bold')
 title('m=2')
 
-saveas(gcf, '../data/curve_m2.png');
+saveas(gcf, '../results/curve_m2.png');
 
 %m=3
 plot(k, SampEnMF(1, 17:24), 'b-s')
@@ -125,4 +125,4 @@ xlabel('\epsilon', 'FontSize', 12, 'FontWeight','bold')
 ylabel('SampEnMF', 'FontSize', 12, 'FontWeight','bold')
 title('m=3')
 
-saveas(gcf, '../data/curve_m3.png');
+saveas(gcf, '../results/curve_m3.png');
